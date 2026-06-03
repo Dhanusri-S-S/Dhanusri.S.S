@@ -51,7 +51,7 @@ export default function About() {
           <div className="lg:col-span-5 relative order-2 lg:order-1 flex justify-center">
             <div className="relative w-full max-w-[440px] aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl shadow-indigo-950/40 border border-slate-800 bg-slate-950">
               <img
-                src="/src/assets/images/about_growth_team_1780370187749.png"
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
                 alt="GrowthBoost Business Strategic Growth Panel"
                 className="w-full h-full object-cover select-none"
                 referrerPolicy="no-referrer"

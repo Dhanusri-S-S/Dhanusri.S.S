@@ -29,6 +29,7 @@ export interface CaseStudy {
     value: string;
   }[];
   tag: string;
+  imageUrl?: string;
 }
 
 export interface TeamMember {

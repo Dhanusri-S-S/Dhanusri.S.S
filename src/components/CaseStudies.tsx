@@ -16,6 +16,7 @@ export default function CaseStudies({ onOpenConsultation }: CaseStudiesProps) {
       challenge: "High cost-per-acquisition (CPA) on social media, combined with a stagnant organic search rank and cart abandonment rates above 74%.",
       solution: "Engineered full-funnel keyword grouping models, created optimized custom landing pages mapped to buyer intent, and instituted robust SMS / email cart auto-recovery funnels.",
       results: "Substantially decreased paid acquisitions costs while increasing continuous digital storefront visibility.",
+      imageUrl: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&h=320&q=80",
       metrics: [
         { label: "Revenue Grow", value: "+180%" },
         { label: "CPA Reduction", value: "-42%" },
@@ -30,6 +31,7 @@ export default function CaseStudies({ onOpenConsultation }: CaseStudiesProps) {
       challenge: "Inconsistent weekday reservation traffic and highly fragmented customer database targeting local catchments.",
       solution: "Implemented targeted localized SEO, launched highly visual geo-fenced Instagram ads with click-to-book integrations, and initiated custom weekday VIP dining club database campaigns.",
       results: "Reconstructed booking profiles, flattening weekend-to-weekday customer retention disparities.",
+      imageUrl: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&h=320&q=80",
       metrics: [
         { label: "Weekday Bookings", value: "+94%" },
         { label: "Email Database", value: "+3,200" },
@@ -44,6 +46,7 @@ export default function CaseStudies({ onOpenConsultation }: CaseStudiesProps) {
       challenge: "High ratio of unqualified leads and manual follow-up processes draining broker time on prestige developments.",
       solution: "Constructed pre-qualification interactive calculators, executed precise PPC custom lookalike audiences targeting high-net-worth brackets, and deployed direct booking auto-schedulers.",
       results: "Automated standard property broker funnels, delivering highly motivated upscale buyers.",
+      imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=600&h=320&q=80",
       metrics: [
         { label: "Qualified Leads", value: "+210%" },
         { label: "Cost Per Lead", value: "-35%" },
@@ -86,6 +89,17 @@ export default function CaseStudies({ onOpenConsultation }: CaseStudiesProps) {
               className="glass-panel hover:bg-slate-900/60 rounded-2xl border border-slate-800/80 hover:border-slate-700/50 transition-all duration-400 flex flex-col justify-between group overflow-hidden"
               id={`case-card-${cs.id}`}
             >
+              {cs.imageUrl && (
+                <div className="w-full h-48 select-none overflow-hidden relative border-b border-slate-800/60">
+                  <img
+                    src={cs.imageUrl}
+                    alt={cs.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent" />
+                </div>
+              )}
               <div className="p-6 sm:p-8 space-y-6 text-left">
                 {/* Header Tag and Industry */}
                 <div className="flex items-center justify-between">

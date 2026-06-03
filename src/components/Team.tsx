@@ -6,7 +6,7 @@ export default function Team() {
     {
       name: "Marcus Vance",
       role: "CEO & Founder",
-      photoUrl: "https://picsum.photos/seed/agency_ceo/400/400",
+      photoUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=400&q=80",
       socials: {
         twitter: "https://twitter.com",
         linkedin: "https://linkedin.com",
@@ -16,7 +16,7 @@ export default function Team() {
     {
       name: "Evelyn Sterling",
       role: "Marketing Strategist",
-      photoUrl: "https://picsum.photos/seed/agency_strategist/400/400",
+      photoUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=400&q=80",
       socials: {
         twitter: "https://twitter.com",
         linkedin: "https://linkedin.com"
@@ -25,7 +25,7 @@ export default function Team() {
     {
       name: "Devon Chen",
       role: "SEO Specialist",
-      photoUrl: "https://picsum.photos/seed/agency_seo/400/400",
+      photoUrl: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&h=400&q=80",
       socials: {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
@@ -34,7 +34,7 @@ export default function Team() {
     {
       name: "Sarah Jenkins",
       role: "PPC Expert",
-      photoUrl: "https://picsum.photos/seed/agency_ppc/400/400",
+      photoUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80",
       socials: {
         twitter: "https://twitter.com",
         linkedin: "https://linkedin.com"

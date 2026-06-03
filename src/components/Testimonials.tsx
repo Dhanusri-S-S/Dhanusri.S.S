@@ -9,7 +9,7 @@ export default function Testimonials() {
       name: "Samantha Harris",
       role: "VP of Marketing",
       company: "Dermacare DTC",
-      avatarUrl: "https://picsum.photos/seed/customer_dermacare/150/150",
+      avatarUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80",
       quote: "The digital team at GrowthBoost completely restructured our landing page mechanics and key search coordinates. Our e-commerce inbounds shot up by 180% within three quarters, while our paid marketing overhead decreased by nearly half. They are exceptional, technically proficient growth engineers.",
       rating: 5
     },
@@ -18,7 +18,7 @@ export default function Testimonials() {
       name: "David Miller",
       role: "Executive Director",
       company: "Prime Steakhouse Group",
-      avatarUrl: "https://picsum.photos/seed/customer_primerest/150/150",
+      avatarUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
       quote: "Prior to partnering with GrowthBoost, we were operating blind with three separate local vendors delivering vague metrics. GrowthBoost synchronized our reservation tracking and designed beautiful geo-targeted social runs. Weekday dine-in bookings spiked by 94% instantly. True professionals.",
       rating: 5
     },
@@ -27,7 +27,7 @@ export default function Testimonials() {
       name: "Claire Peterson",
       role: "Chief Growth Officer",
       company: "Ascent Residential Brokerage",
-      avatarUrl: "https://picsum.photos/seed/customer_ascent/150/150",
+      avatarUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80",
       quote: "We had high expectations but incredibly tight timelines to scale lead qualities for our new downtown residences. The pre-screening interactive tools and lookalike target audiences delivered precise results. Direct customer inquiries jumped by 210%. Highly recommend this team.",
       rating: 5
     }

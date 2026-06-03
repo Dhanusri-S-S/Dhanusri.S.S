@@ -119,7 +119,7 @@ export default function Hero({ onOpenConsultationModal, onViewCaseStudies }: Her
               {/* Futuristic Cyber Overlay Grid and Lights */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#030712] via-transparent to-transparent opacity-50 z-20" />
               <img
-                src="/src/assets/images/hero_digital_marketing_1780370167879.png"
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
                 alt="GrowthBoost Digital Marketing Visualization"
                 className="w-full h-full object-cover pointer-events-none transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
